@@ -1,0 +1,131 @@
+T5034 000:160.286   SEGGER J-Link V7.96h Log File
+T5034 000:160.373   DLL Compiled: May 15 2024 15:33:59
+T5034 000:160.377   Logging started @ 2025-08-14 11:20
+T5034 000:160.381   Process: C:\Users\asus\AppData\Local\Keil_v5\UV4\UV4.exe
+T5034 000:160.386 - 160.385ms
+T5034 000:160.393 JLINK_SetWarnOutHandler(...)
+T5034 000:160.397 - 0.004ms
+T5034 000:160.403 JLINK_OpenEx(...)
+T5034 000:162.187   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T5034 000:162.619   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T5034 000:163.756   Hardware: V7.00
+T5034 000:163.763   S/N: 4294967295
+T5034 000:163.768   OEM: SEGGER
+T5034 000:163.775   Feature(s): None
+T5034 000:163.983   Bootloader: (Could not read)
+T5034 000:164.438   TELNET listener socket opened on port 19021
+T5034 000:164.524   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T5034 000:164.595   WEBSRV Webserver running on local port 19080
+T5034 000:164.669   Looking for J-Link GUI Server exe at: C:\Users\asus\AppData\Local\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T5034 000:164.775   Looking for J-Link GUI Server exe at: D:\\JLink_V798c\JLinkGUIServer.exe
+T5034 000:164.845   Forking J-Link GUI Server: D:\\JLink_V798c\JLinkGUIServer.exe
+T5034 000:232.631   J-Link GUI Server info: "J-Link GUI server V7.98c "
+T5034 000:234.776 - 74.367ms returns "O.K."
+T5034 000:234.797 JLINK_GetEmuCaps()
+T5034 000:234.803 - 0.004ms returns 0x88EA5833
+T5034 000:234.812 JLINK_TIF_GetAvailable(...)
+T5034 000:234.991 - 0.179ms
+T5034 000:235.008 JLINK_SetErrorOutHandler(...)
+T5034 000:235.013 - 0.005ms
+T5034 000:235.032 JLINK_ExecCommand("ProjectFile = "D:\OneDrive\Desktop\8_13\8_13\MDK-ARM\JLinkSettings.ini"", ...). 
+T5034 000:243.724 - 8.692ms returns 0x00
+T5034 000:243.748 JLINK_ExecCommand("Device = STM32F405RGTx", ...). 
+T5034 000:244.123   Device "STM32F405RG" selected.
+T5034 000:244.319 - 0.564ms returns 0x00
+T5034 000:244.328 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T5034 000:244.334 - 0.001ms returns 0x01
+T5034 000:244.339 JLINK_GetHardwareVersion()
+T5034 000:244.344 - 0.003ms returns 70000
+T5034 000:244.348 JLINK_GetDLLVersion()
+T5034 000:244.352 - 0.003ms returns 79608
+T5034 000:244.356 JLINK_GetOEMString(...)
+T5034 000:244.361 JLINK_GetFirmwareString(...)
+T5034 000:244.365 - 0.003ms
+T5034 000:244.371 JLINK_GetDLLVersion()
+T5034 000:244.375 - 0.003ms returns 79608
+T5034 000:244.380 JLINK_GetCompileDateTime()
+T5034 000:244.384 - 0.004ms
+T5034 000:244.389 JLINK_GetFirmwareString(...)
+T5034 000:244.392 - 0.003ms
+T5034 000:244.397 JLINK_GetHardwareVersion()
+T5034 000:244.401 - 0.003ms returns 70000
+T5034 000:244.406 JLINK_GetSN()
+T5034 000:244.410 - 0.004ms returns -1
+T5034 000:244.414 JLINK_GetOEMString(...)
+T5034 000:244.420 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T5034 000:244.721 - 0.301ms returns 0x00
+T5034 000:244.731 JLINK_HasError()
+T5034 000:244.740 JLINK_SetSpeed(5000)
+T5034 000:244.787 - 0.048ms
+T5034 000:245.033 JLINK_HasError()
+T5034 000:245.042 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T5034 000:245.047 - 0.004ms returns JLINKARM_RESET_TYPE_NORMAL
+T5034 000:245.052 JLINK_Reset()
+T5034 000:245.178   InitTarget() start
+T5034 000:245.185    J-Link Script File: Executing InitTarget()
+T5034 000:245.290   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:248.211   DAP initialized successfully.
+T5034 000:249.064   Can not attach to CPU. Trying connect under reset.
+T5034 000:299.371   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:302.483   DAP initialized successfully.
+T5034 000:303.345   Connecting to CPU via connect under reset failed.
+T5034 000:353.936   InitTarget() end - Took 108ms
+T5034 000:353.988   Connect failed. Resetting via Reset pin and trying again.
+T5034 000:415.873   InitTarget() start
+T5034 000:415.897    J-Link Script File: Executing InitTarget()
+T5034 000:416.057   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:418.956   DAP initialized successfully.
+T5034 000:419.736   Can not attach to CPU. Trying connect under reset.
+T5034 000:469.961   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:473.490   DAP initialized successfully.
+T5034 000:474.366   Connecting to CPU via connect under reset failed.
+T5034 000:524.456   InitTarget() end - Took 108ms
+T5034 000:524.479 - 279.427ms
+T5034 000:524.502 JLINK_GetId()
+T5034 000:524.663   InitTarget() start
+T5034 000:524.682    J-Link Script File: Executing InitTarget()
+T5034 000:524.836   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:527.742   DAP initialized successfully.
+T5034 000:528.599   Can not attach to CPU. Trying connect under reset.
+T5034 000:578.858   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:581.939   DAP initialized successfully.
+T5034 000:582.795   Connecting to CPU via connect under reset failed.
+T5034 000:633.308   InitTarget() end - Took 108ms
+T5034 000:633.321   Connect failed. Resetting via Reset pin and trying again.
+T5034 000:695.587   InitTarget() start
+T5034 000:695.609    J-Link Script File: Executing InitTarget()
+T5034 000:695.757   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:698.724   DAP initialized successfully.
+T5034 000:699.582   Can not attach to CPU. Trying connect under reset.
+T5034 000:750.609   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:753.589   DAP initialized successfully.
+T5034 000:754.443   Connecting to CPU via connect under reset failed.
+T5034 000:804.581   InitTarget() end - Took 108ms
+T5034 000:804.605 - 280.102ms returns 0x00000000
+T5034 000:804.634 JLINK_GetId()
+T5034 000:804.793   InitTarget() start
+T5034 000:804.804    J-Link Script File: Executing InitTarget()
+T5034 000:805.014   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:808.087   DAP initialized successfully.
+T5034 000:808.944   Can not attach to CPU. Trying connect under reset.
+T5034 000:860.015   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:862.944   DAP initialized successfully.
+T5034 000:863.735   Connecting to CPU via connect under reset failed.
+T5034 000:914.729   InitTarget() end - Took 109ms
+T5034 000:914.752   Connect failed. Resetting via Reset pin and trying again.
+T5034 000:975.164   InitTarget() start
+T5034 000:975.185    J-Link Script File: Executing InitTarget()
+T5034 000:975.340   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 000:978.356   DAP initialized successfully.
+T5034 000:979.209   Can not attach to CPU. Trying connect under reset.
+T5034 001:029.614   SWD selected. Executing JTAG -> SWD switching sequence.
+T5034 001:032.950   DAP initialized successfully.
+T5034 001:033.753   Connecting to CPU via connect under reset failed.
+T5034 001:084.184   InitTarget() end - Took 108ms
+T5034 001:084.206 - 279.571ms returns 0x00000000
+T5034 001:089.822 JLINK_GetFirmwareString(...)
+T5034 001:089.833 - 0.010ms
+T5034 004:723.628 JLINK_Close()
+T5034 004:734.291 - 10.662ms
+T5034 004:734.311   
+T5034 004:734.318   Closed
